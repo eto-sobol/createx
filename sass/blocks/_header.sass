@@ -1,0 +1,67 @@
+.header
+    display: flex
+    // justify-content: space-between
+    align-items: center
+    align-content: center
+    padding-top: 20px
+    &_nav
+        width: 429px
+        margin-left: 60px
+    &_menu
+        display: flex
+        list-style-type: none
+        justify-content: space-between
+        margin: 0
+        padding: 0
+    &_link
+        text-decoration: none
+        font-weight: $bold
+        font-size: $base
+        line-height: 160%
+        color: $gray-800
+        transition: 0.5s
+        &:hover
+            color: $primary
+    &_buttons
+        margin-left: 225px
+        display: flex
+        justify-content: space-between
+    &_btn
+        padding: 0px 40px
+        height: 52px
+        background: $btn-gradient
+        border-radius: 4px
+        font-weight: $bold
+        text-align: center
+        letter-spacing: 0.5px
+        font-size: $base
+        line-height: 52px
+        color: $white
+        text-decoration: none
+        transition: 0.5s
+        &:hover
+            color: $secondary
+    &_sign
+        display: flex
+        justify-content: space-between
+        align-items: center
+        div
+            margin-left: 3px
+            font-weight: $bold
+            font-size: $base
+            line-height: 160%
+            color: $gray-800
+    &_signIn
+        margin-left: 8px
+        font-weight: $bold
+        font-size: $base
+        line-height: 160%
+        color: $gray-800
+        text-decoration: none
+    &_signUp
+        margin-left: 3px
+        font-weight: $bold
+        font-size: $base
+        line-height: 160%
+        color: $gray-800
+        text-decoration: none
