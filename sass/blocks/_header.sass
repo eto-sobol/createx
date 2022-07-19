@@ -1,6 +1,6 @@
 .header
     display: flex
-    // justify-content: space-between
+    justify-content: space-between
     align-items: center
     align-content: center
     padding-top: 20px
@@ -22,11 +22,8 @@
         transition: 0.5s
         &:hover
             color: $primary
-    &_buttons
-        margin-left: 225px
-        display: flex
-        justify-content: space-between
     &_btn
+        margin-left: 225px
         padding: 0px 40px
         height: 52px
         background: $btn-gradient
@@ -58,6 +55,9 @@
         line-height: 160%
         color: $gray-800
         text-decoration: none
+        transition: 0.5s
+        &:hover
+            color: $primary
     &_signUp
         margin-left: 3px
         font-weight: $bold
@@ -65,3 +65,6 @@
         line-height: 160%
         color: $gray-800
         text-decoration: none
+        transition: 0.5s
+        &:hover
+            color: $primary
