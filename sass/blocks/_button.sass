@@ -1,0 +1,32 @@
+.button
+    display: inline-block
+    padding: 0px 40px
+    transition: 0.5s
+    text-decoration: none
+    border-radius: 4px
+    font-weight: $bold
+    line-height: 52px
+    color: $white
+    background: $btn-gradient
+    font-size: $base
+    text-align: center
+    &:hover
+        color: $secondary
+    &_header
+        margin-left: 225px
+        height: 52px
+        letter-spacing: 0.5px
+    &_about-us
+        border: 2px solid $primary
+        background-image: $btn-gradient
+        background-clip: text
+        color: transparent
+        &:hover
+            background-clip: padding-box
+            background-image: none
+            background-color: $primary
+            color: $white
+    &_about
+        margin-top: 48px
+        padding: 0px 32px
+        line-height: 44px
